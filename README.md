@@ -33,8 +33,10 @@ An interactive script that prompts the user for their views on software freedom.
 Open your WSL or Ubuntu terminal and enter the directory where the scripts are stored:
 ```bash
 cd ~/oss-audit-project
-Step 2: Grant Execution PermissionsBefore running the scripts, you must allow Linux to execute them:Bashchmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
-Step 3: Execute the ScriptsRun them individually using the following commands:Bash./script1.sh
+Step 2: Grant Execution PermissionsBefore running the scripts, you must allow Linux to execute them:Bash
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+Step 3: Execute the ScriptsRun them individually using the following commands:Bash
+./script1.sh
 ./script2.sh
 ./script3.sh
 ./script4.sh /var/log/dpkg.log install
